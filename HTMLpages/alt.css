@@ -1,0 +1,90 @@
+.topnav {
+    background: 
+    #2b91d9;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.menuList li {
+  float: left;
+}
+.menuList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+.menuList li a {
+
+    font-size: 30px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: 
+
+    white;
+    font-family: arial;
+    display: block;
+
+}
+.menuList li a:hover {
+
+    background: #3c7cc0;
+color:black;
+    
+
+}
+.menuList li a:focus {
+
+    background: whitesmoke;
+
+color:#2b91d9;
+
+}
+.active {
+    background: 
+    #0071BC;
+}
+@media screen and (max-width: 400px) {
+  .menuList li {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

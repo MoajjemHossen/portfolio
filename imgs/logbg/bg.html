@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Background Image</title>
+
+<style>
+body::before {
+
+    margin: 0;
+    padding: 0;
+    content: "";
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("log3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-filter: blur(10px);
+    
+}
+
+
+.conteiner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    background: 
+    #7e7474ab;
+    width: 400px;
+    height: 500px;
+	padding: 50px 30px;
+}
+.conteiner h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: arial;
+    color: 
+    green;
+    padding: 0 0 20px;
+    margin: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: 
+    #050505;
+    font-weight: bold;
+}
+.conteiner input {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 30px;
+    background: 
+transparent;
+border: 1px solid
+    blanchedalmond;
+}
+input[type="submit"] {
+
+    background: 
+
+black;
+
+color:
+
+    white;
+    font-size: 20px;
+    border: none;
+    width: 81px;
+    margin: 0 auto;
+
+}
+
+</style>
+
+
+</head>
+<body>
+
+<div class="conteiner">
+<h2>Contact Form</h2>
+<form>
+<p>Email</p>
+<input type="email" placeholder="enter your email"/>
+<p>password</p>
+<input type="password" placeholder="enter your password"/>
+<input type="submit" value="Submit"/><br/>
+<input type="checkbox" value=""/><span>Remember Me</span>
+</form>
+</div>
+
+
+
+</body>
+</html>
